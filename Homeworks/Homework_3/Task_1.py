@@ -9,12 +9,8 @@
 import random
 
 c = int(input("Enter a number of items in a list: "))
-# ------------------------------------------------------ #
-# первый вариант решения
-
-
 l = list()
-add = 0
+mult = 1
 
 for i in range(c):
     l.append(random.randint(0, 5*c))
@@ -22,21 +18,7 @@ for i in range(c):
 print(l)
 
 for i in range(len(l)):
-    if (i % 2 == 0): # нечетная позиция, а индекс - четный таким образом!
-        add += l[i]
+    if (i % 2 == 0):
+        mult *= l[i]
 
-print(add)
-# ------------------------------------------------------ #
-# второй вариант решения
-
-
-l=list(l[i] for i in range(len(l)) if i%2==0) # нечетная позиция, а индекс - четный таким образом!
-
-print(sum(l))
-# ------------------------------------------------------ #
-# можно срезом решить (из семинара)
-
-
-print(sum(l[0::2])) # нечетная позиция, а индекс - четный таким образом!
-
-
+print(f"Result of multiplication of odd items of the list {l} is: {mult}")
