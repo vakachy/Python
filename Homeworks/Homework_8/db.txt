@@ -1,0 +1,15 @@
+1;Alex Smith;+111111111;manager;100500
+2;John Smith;+111111112;manager;100500
+3;George Alan;+111111113;cashier;20000
+4;Gabriel Defoe;+111111114;cashier;20000
+5;Fiadh Veil;+111111115;trader;100700
+6;Sophia Venturi;+111111116;trader;100700
+7;Charlotte Enought;+111111117;technician;177777
+8;Ginevra Vogue;+111111118;technician;177777
+9;Daniela Abrams;+111111119;merchandiser;50000
+10;William Bright;+111111120;cashier;50000
+11;Дмитрий Петров;+111111121;corrector;70000
+12;Василий Дмитриев;+111111122;corrector;70000
+13;Денис Иванов;+111111123;doctor;500100
+14;Clod Van Damm;+111111124;doctor;500100
+15;Виталий Алов;+111111125;surgeon;500500
